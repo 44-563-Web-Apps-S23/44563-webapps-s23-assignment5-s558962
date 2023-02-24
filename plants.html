@@ -13,6 +13,25 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
+
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+    <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="basic.html">Basic HTML</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced HTML</a>
+              </li>
+        </ul>
+    </div>
+   </nav>
+   <br>
     <h1>Plants by Sai Krishna Pullabhatla</h1>
     <div class="container">
         <div class="row">
@@ -51,5 +70,142 @@
   <img src="utah_juniper.jpg" class="img-thumbnail" alt="Utah Juniper"  width="200" height="200">
   <img src="lacecap_hydrangea.jpg" class="img-thumbnail" alt="Lacecap Hydrangea"  width="200" height="200">
 </div>
+<br>
+<table class="table table-bordered table-dark table table-striped  table table-hover table-sm">
+  <caption>Plants, Mountains and Lakes Names</caption>
+  <thead>
+    <tr class="table-primary">
+      <th scope="col">Letter</th>
+      <th scope="col">Plant</th>
+      <th scope="col">Mountain</th>
+      <th scope="col">Lake</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-dark">
+      <td scope="row" >P</td>
+      <td scope="row">Paddle Plant</td>
+      <td scope="row">Panchchuli</td> 
+      <td scope="row">Paw Paw Lake</td>
+      
+    </tr>
+    <tr class="table-primary">
+      <td scope="row">U</td>
+      <td scope="row">Utah Juniper</td>
+      <td scope="row">Ultar</td>  
+      <td scope="row">Ubinskoe Lake</td>
+  </tr>
+  <tr class="table-dark">
+    <td scope="row">L</td>
+    <td scope="row">Lacecap Hydrangea</td>
+    <td scope="row">Lincoln</td>
+    <td scope="row">Ladoga Lake</td>
+  </tr>
+  <tr class="table-primary">
+    <td scope="row">L</td>
+    <td scope="row">Lady Ferns</td>
+    <td scope="row">Lindsey</td>
+    <td scope="row">Lacar Lake</td>
+  </tr>
+  <tr class="table-dark">
+      <td scope="row">A</td>
+      <td scope="row">Aeonium</td>
+      <td scope="row">Andrus</td>
+      <td scope="row">Atlin Lake</td>
+  <tr class="table-primary">
+      <td scope="row">B</td>
+      <td scope="row">Bald Cypress</td>
+      <td scope="row">Belukha</td>
+      <td scope="row">Baker Lake</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+  <label>Buttons</label><br>
+  <div>
+    <button class="btn" >P</button>
+    <button class="btn" >U</button>
+    <button class="btn" >L</button>
+    <button class="btn" >L</button>
+    <button class="btn" >A</button>
+    <button class="btn" >B</button>
+
+  </div>
+  <label>Buttons with style</label>
+  <br>
+  <div class="btn-group" role="group" aria-label="Basic example" >
+           
+            <button type="button" class="btn btn-success">P</button>
+            <button type="button" class="btn btn-success">U</button>
+            <button type="button" class="btn btn-success">L</button>
+          </div>
+          
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-warning">L</button>
+            <button type="button" class="btn btn-warning">A</button>
+          </div>
+
+          <div class="btn-group" role="group">
+          
+            <button type="button" class="btn btn-danger">B</button>
+          </div>
+        </div>
+    </div>
+<br>
+<br>
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown HTML
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="basic.html">Basic HTML</a></li>
+          <li><a class="dropdown-item" href="advanced.html">Advanced HTML </a></li>
+        </ul>
+  </div>
+  <br>
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">Your email will never be disclosed to anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label" >Plant</label>
+      <input type="text" class="form-control" placeholder="Enter your plant" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <div class="card" style="width: 16rem;float: left;">
+    <img src="paddle_plant.jpg" class="card-img-top" alt="paddle_plant">
+    <div class="card-body">
+      <h5 class="card-title">Paddle Plant</h5>
+      <p class="card-text">Also known as flapjack paddle plant (Kalanchoe thyrsiflora), this succulent kalanchoe plant has with thick, rounded, paddle-shaped leaves. The plant is also known as red pancake because the leaves frequently take on a reddish or deep pink tint during the winter.</p>
+      <a href="https://www.gardeningknowhow.com/houseplants/kalanchoe/growing-paddle-plants.htm" class="btn btn-primary">Know More</a>
+    </div>
+  </div>
+  <br>
+<div class="card" style="width: 16rem;float:left;">
+    <img src="utah_juniper.jpg" class="card-img-top" alt="utah_juniper">
+    <div class="card-body">
+      <h5 class="card-title">Utah Juniper</h5>
+      <p class="card-text">he plant reaches 3–6 meters (9 ft 10 in – 19 ft 8 in), rarely to 9 m, tall. The shoots[which?] are fairly thick compared to most junipers, 1.5–2 millimetres (1⁄16–3⁄32 in) in diameter. The leaves are arranged in opposite decussate pairs[2] or whorls of three; the adult leaves are scale-like, 1–2 mm long (to 5 mm on lead shoots) and 1–1.5 mm broad.</p>
+      <a href="https://en.wikipedia.org/wiki/Juniperus_osteosperma" class="btn btn-primary">Know More</a>
+    </div>
+  </div>
+  <br>
+  <div class="card" style="width: 16rem; float: left;">
+    <img src="lacecap_hydrangea.jpg" class="card-img-top" alt="lacecap_hydrangea">
+    <div class="card-body">
+      <h5 class="card-title">Lacecap Hydrangea</h5>
+      <p class="card-text">Hydrangea macrophylla is a species of flowering plant in the family Hydrangeaceae, native to Japan. It is a deciduous shrub growing to 2 m tall by 2.5 m broad with large heads of pink or blue flowers in summer and autumn. </p>
+      <a href="https://en.wikipedia.org/wiki/Hydrangea_macrophylla" class="btn btn-primary">Know More</a>
+    </div>
+  </div>
 </body>
 </html>
